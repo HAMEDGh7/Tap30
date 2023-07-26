@@ -8,3 +8,23 @@
   list-style: none;
 }
 
+/* root variable */
+:root {
+  --color-primary: #ff5722;
+  --color-secendary-light: #fff6f2;
+  --color-secendary-dark: #ffa589;
+  --color-navbar-: #f8f8f8;
+  --color-headings: #000;
+  --color-body: #333333;
+  --color-white: #fff;
+}
+
+body {
+  color: var(--color-body);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+}
